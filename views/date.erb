@@ -4,8 +4,6 @@
         <title>Title</title>
     </head>
     <body>
-        <h1>Today</h1>
-        <% name = 'Joe' %>
-        <p>The date is <%= name%></p>
+        <p>The date is <%= Date.today.strftime("%A, %B %d, %Y") %>.</p>
     </body>
 </html>
